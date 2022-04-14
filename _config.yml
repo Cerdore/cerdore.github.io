@@ -195,7 +195,6 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-
 post:
   template: _post.txt
   extension: md
@@ -209,4 +208,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/yourGithubName.github.com/
+  destination: ~/Git/cerdore.github.com/
