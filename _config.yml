@@ -185,7 +185,7 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
-  
+
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
@@ -194,3 +194,19 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: atom
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/yourGithubName.github.com/
