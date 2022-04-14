@@ -203,7 +203,7 @@ page:
   extension: md
 editor: atom
 git:
-  branch: master
+  branch: main
 transfer:
   command: rsync
   settings: -av

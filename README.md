@@ -36,10 +36,26 @@ $ bundle
 ### run it
 
 生成文章 & run it
+
+```
+https://www.zybuluo.com/jeffjade/note/324955
+```
+
+
+
 ```
 rake post title="article name"
 
 bundle exec jekyll s
+```
+
+```
+rake new // 新建文章
+rake post["TitleName"] // 生成纯净文章模版配置
+rake deploy "message"="Commit Message" //一键发布文章
+rake preview //一键预览(自主协助打开浏览器)
+rake build //Build the site
+rake post["Title"] //创建文章(tags,keywords等洁净的)
 ```
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
